@@ -1,0 +1,8 @@
+INFO:root:início do processamento: 2020-10-22 14:12:30.434119
+INFO:root:[gcp-boavista-737.raw] já existe...
+INFO:root:iniciando o processamento das views materializadas
+INFO:root:view materializada [vw_fact_bill_of_materials] criada com sucesso
+INFO:root:view materializada [vw_fact_bracket_pricing] criada com sucesso
+INFO:root:view materializada [vw_fact_non_bracket_pricing] criada com sucesso
+INFO:root:tempo de processamento: 3.3117087670000007
+INFO:root:fim do processamento: 2020-10-22 14:12:33.787260
