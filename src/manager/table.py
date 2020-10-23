@@ -17,8 +17,8 @@ from google.cloud import bigquery
 from google.cloud.bigquery.schema import SchemaField
 from google.cloud.bigquery.job import LoadJobConfig
 
-TABLES_DIR = os.getcwd() + "/.raw_data/.tables/"
-SCHEMA_DIR = os.getcwd() + "/.raw_data/.schemas/"
+TABLES_DIR = os.getcwd() + "/raw_data/tables/"
+SCHEMA_DIR = os.getcwd() + "/raw_data/schemas/"
 
 class TableManager():
     
