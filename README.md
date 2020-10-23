@@ -13,12 +13,13 @@ Nesse desafio, o foco será o de modelar de forma eficaz os dados fornecidos, cr
 #### Diretórios
 
 * src/.private/ - armazena o arquivo de credenciais gerado automaticamente
-* src/.raw_data/.tables - armazena os CSVs
-* src/.raw_data/.schemas - armazena os schemas
-* src/.raw/.views - armazena as views materializadas que alimentam os dashboards
+* src/raw_data/tables - armazena os CSVs
+* src/raw_data/schemas - armazena os schemas
+* src/raw/views - armazena as views materializadas que alimentam os dashboards
 * env/ - diretório criado pelo virtualenv contendo as bibliotecas python
 * src/- código python (pipeline)
-* src/config - arquivo de configuração (gerado automáticamente)
+* src/config - arquivo de configuração (gerado automaticamente)
+* dashboards/ - dashboards gerados pelo data studio no formato pdf, para eventuais problemas com o link de acesso.
 
 #### Modelagem Conceitual:
 
