@@ -3,12 +3,14 @@
 O objetivo desse projeto é apresentar para os avaliadores a solução proposta para o desafio técnico (Engenheiro de Dados).
 
 Nesse desafio, o foco será o de modelar de forma eficaz os dados fornecidos, criar a infraestrutura e os artefatos necessários para carregar os arquivos e apresentar os resultados através de um dashboard.
+___
 
 #### Pré-requisitos
 
 * Python 3
 * [GCP SDK](https://cloud.google.com/sdk/docs/install?hl=it)
 * informar a variável do sistema GCP_ACCOUNT
+___
 
 #### Diretórios
 
@@ -20,12 +22,14 @@ Nesse desafio, o foco será o de modelar de forma eficaz os dados fornecidos, cr
 * src/- código python (pipeline)
 * src/config - arquivo de configuração (gerado automaticamente)
 * dashboards/ - dashboards gerados pelo data studio no formato pdf, para eventuais problemas com o link de acesso.
+___
 
 #### Modelagem Conceitual:
 
 De acordo com a documentação do GCP,  JOINs são possíveis com o BigQuery e, às vezes, recomendados em tabelas pequenas. No entanto, eles normalmente não têm um desempenho tão bom quanto as estruturas desnormalizadas.
 
 Devido a esse fato, a abordagem escolhida para a modelagem será a de views materializadas desnormalizadas (uma view para cada dashboard).
+___
 
 #### IaC (infrastructure as a code)
 
@@ -35,6 +39,7 @@ Os arquivos responsáveis pelo IaC são:
 
 * create_enviroment.sh
 * destroy_enviroment.sh
+___
 
 #### Execução
 
@@ -64,6 +69,7 @@ Após realizar os testes e validação da solução, é possível remover todos 
 ```
 
 Os logs da operação podem ser visualizados no arquivo **resultado.log** localizado no diretório src\
+___
 
 ### Dashboards
 
@@ -74,5 +80,6 @@ Os dashboards criados podem ser consultados nos seguintes links:
 [Bracket Pricing - Supplier Analysis](https://datastudio.google.com/s/qTtEuiOdBAY)
 
 [Materials- Consumption Analysis](https://datastudio.google.com/s/vj3reK-GUuA)
+___
 
 Obrigado!
