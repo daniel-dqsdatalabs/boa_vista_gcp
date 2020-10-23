@@ -16,7 +16,7 @@ from pathlib import Path
 from google.cloud import bigquery
 from google.cloud.bigquery.job import QueryJobConfig, QueryJob
 
-VIEWS_DIR = os.getcwd() + "/.raw_data/.views/"
+VIEWS_DIR = os.getcwd() + "/raw_data/views/"
 
 class ViewManager():
     
